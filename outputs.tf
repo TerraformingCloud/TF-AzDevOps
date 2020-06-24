@@ -1,8 +1,8 @@
-// // #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
-// // #*      Terraform - Azure DevOps - Outputs                 *# 
-// // #*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
+#*      Terraform - Azure DevOps - Outputs                 *# 
+#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#
 
-// // # ADO Project Details
+# ADO Project Details
 
 // output "ado-project" {
 //     description     =   "Exiting Project details in ADO"
@@ -16,12 +16,12 @@
 //     }
 // }
 
-// // # Azure Git Repos Outputs
+# Azure Git Repos Outputs
 
-// // output "azure-git-repos" {
-// //     description                 =       "Print Azure Git Repo properties"
-// //     value                       =       [data.azuredevops_git_repositories.tf.repositories]
-// // }
+// output "azure-git-repos" {
+//     description                 =       "Print Azure Git Repo properties"
+//     value                       =       [data.azuredevops_git_repositories.tf.repositories]
+// }
 
 # Project Outputs
 
